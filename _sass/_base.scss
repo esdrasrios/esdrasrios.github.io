@@ -1,17 +1,23 @@
+$background-color: #1A1B26;
+$text-color: #F9F7F3;
+$link-color: #D3A984;
+$link-hover-color: #FFCC95;
+
 body {
+  background-color: $background-color;
+  color: $text-color;
   font-family: "hack", monospace;
   font-size: 16px;
   font-weight: 400;
-  background-color: var(--oc-gray-9);
-  color: var(--oc-green-4);
 }
 
 main {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
   text-transform: lowercase;
 
   @media (min-width: 576px) {
@@ -30,11 +36,11 @@ p {
 }
 
 a {
-  color: inherit;
-  font-style: italic;
+  color: $link-color;
+  text-decoration: none;
 
-  &:hover,
-  &:active {
-    color: var(--oc-green-5);
+  &:hover {
+    color: $link-hover-color;
   }
 }
+

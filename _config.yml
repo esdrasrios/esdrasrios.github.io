@@ -2,8 +2,15 @@ title: great art is horse shit buy tacos
 email: esdrasrioos@gmail.com 
 description: what matters most is how well you walk through the fire
 baseurl: ""
-url: "https://greatartishorseshitbuytacos.com"
-github_username:  jekyll
+url: greatartishorseshitbuytacos.com
+url: https://greatartishorseshitbuytacos.com
+github_username:  esdrasrios
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 exclude:
   - LICENSE
