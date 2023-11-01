@@ -14,11 +14,11 @@ but there is always tomorrow
 
 
 \
-![flowersandyou](1979.jpeg)
+![flowersandyou](/assets/img/1979.jpeg)
 
 \
-![flowersandyou](stoned.jpeg)
+![flowersandyou](/assets/img/stoned.jpeg)
 
 \
-![flowersandyou](yeah.jpeg)
+![flowersandyou](/assets/img/yeah.jpeg)
 
