@@ -1,46 +1,46 @@
-$background-color: #1A1B26;
-$text-color: #F9F7F3;
-$link-color: #D3A984;
-$link-hover-color: #FFCC95;
+$background-color: #181818;
+$text-color: #d1d1d1;
+$link-color: #d898dd;
+$link-hover-color: #f3ce67;
 
 body {
-  background-color: $background-color;
-  color: $text-color;
-  font-family: "hack", monospace;
-  font-size: 16px;
-  font-weight: 400;
+	background-color: $background-color;
+	color: $text-color;
+	display: flex;
+	justify-content: center;
+	font-family: 'hack', monospace;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 main {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	height: 100%;
-  text-transform: lowercase;
+	text-transform: lowercase;
 
-  @media (min-width: 576px) {
-    font-size: 18px;
-    width: 80%;
-  }
+	@media (min-width: 576px) {
+		font-size: 18px;
+		width: 80%;
+	}
 
-  @media (min-width: 768px) {
-    font-size: 20px;
-    width: 60%
-  }
+	@media (min-width: 768px) {
+		font-size: 20px;
+		width: 60%;
+	}
 }
 
 p {
-  margin: 0;
+	margin: 0;
 }
 
 a {
-  color: $link-color;
-  text-decoration: none;
+	color: $link-color;
+	text-decoration: none;
 
-  &:hover {
-    color: $link-hover-color;
-  }
+	&:hover {
+		color: $link-hover-color;
+	}
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}

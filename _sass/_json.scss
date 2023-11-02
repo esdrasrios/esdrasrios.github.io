@@ -1,3 +1,7 @@
+$scroll-bg: #ae9cff;
+$scroll-fg: #1e1e1e;
+$content-color: #92d0cd;
+
 @mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
 	::-webkit-scrollbar {
 		width: $size;
@@ -13,20 +17,24 @@
 	}
 }
 
-@include scrollbars(10px, pink, red);
+@include scrollbars(10px, $scroll-bg, $scroll-fg);
 .json {
+	padding: 2rem;
 	&:before {
 		content: '{';
+		font-size: 36px;
+		font-weight: 900;
+		color: $content-color;
 	}
 	&:after {
 		content: '}';
+		font-size: 36px;
+		font-weight: 900;
+		color: $content-color;
 	}
 }
 
 .block {
-	margin-left: 1.5rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
 }
 
 .key:after {
